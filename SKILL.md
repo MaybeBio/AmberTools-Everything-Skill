@@ -1,5 +1,5 @@
 ---
-name: AmberTools-Everything-Skill
+name: amber
 description: "Knowledge base from Amber 2026 Reference Manual and official tutorials. Code-first technical reference for AmberTools26/Amber26 — MD simulation, force fields, free energy, enhanced sampling, and trajectory analysis. Use when writing Amber commands, input files, or MD workflows."
 --- 
 
