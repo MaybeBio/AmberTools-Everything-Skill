@@ -153,16 +153,18 @@
 ### 安装
 
 ```bash
-# 方式 1: 使用 npx（推荐）
-npx skills add MaybeBio/AmberTools-Everything-Skill -a claude-code
+# 方式 1: 手动克隆（推荐）
+# amber即skill名
+git clone https://github.com/MaybeBio/AmberTools-Everything-Skill ~/.claude/skills/amber 
 
-# 方式 2: 手动克隆
-git clone https://github.com/MaybeBio/AmberTools-Everything-Skill ~/.claude/skills/
+# 方式 2: 使用 npx
+# 当前仓库根目录直接放置 SKILL.md 和子目录，npx只能获取SKILL.md 
+npx skills add MaybeBio/AmberTools-Everything-Skill -a claude-code
 ```
 
 ### 在 Claude Code 中调用
 
-Skill 加载后，可直接在对话中查询或手动触发`/AmberTools-Everything-Skill`：
+Skill 加载后，可直接在对话中查询或手动触发`/amber`：
 
 ```
 ▸ 如何用 tleap 构建一个膜蛋白系统？
